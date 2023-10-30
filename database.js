@@ -1,7 +1,7 @@
 // db.js
 const mongoose = require('mongoose');
 
-const MONGO_URI = 'mongodb://127.0.0.1:27017/NpaX';
+const MONGO_URI = 'mongodb+srv://AbhinavSingh:NapX@cluster0.kgw1q72.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
